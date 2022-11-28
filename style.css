@@ -134,15 +134,20 @@ h3 {
 }
 .subscribe-btn {
   display: inline-block;
+  background-color: #3882F6;  
+  border: 1px solid #F9FAF8;
+  border-radius: 5px;
+  padding: 4px 25px 4px 25px;    
+}
+.subscribe-btn a {
   color: #F9FAF8;
   text-decoration: none;
-  border: 1px solid #F9FAF8;
-  padding: 4px 25px 4px 25px;
-  border-radius: 5px;
 }
 .subscribe-btn:hover {
-  background-color: #E5E7EB;
-  color: #3882F6;
+  background-color: #F9FAF8;
+}
+.subscribe-btn:hover a {
+  color:#3882F6;
 }
 /******************/
 /*FOOTER*/
